@@ -6,8 +6,8 @@ import process
 
 
 EACH_DO = {
-    '-l':{'func':process.do_list, 'recur':True},
     '-d':{'func':process.do_debug,},
+    '-l':{'func':process.do_list, 'recur':True},
     '-f':{'func':process.do_filter},
     '-m':{'func':process.do_move, 'path':cfg.DOWNLOAD_PATH},
     '-u':{'func':process.do_unzip},
