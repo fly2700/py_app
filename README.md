@@ -2,22 +2,25 @@
 python基本命令行程序
 有简单日志打印、文件处理、命令行参数处理等基本功能
 
-pycharm 添加 github 方法
+
+# github下载代码和添加到pycharm方法
 
 1.在空文件夹运行
 git init
 git pull https://github.com/fly2700/py_app.git
-git branch dev
-git checkout dev
+git branch -M main
 
 
-2.修改源码后运行
-文件右键  Git  "show diff"
-文件右键  Git  "commit"
+2.修改源码后
+在pycharm中
+文件右键 -> Git -> "show diff"
+文件右键 -> Git -> "commit"
 
 
 3.push
-git push https://github.com/fly2700/py_app.git master
+在pycharm中 文件右键 -> Git -> “push"
+或
+git push https://github.com/fly2700/py_app.git main
 input token
 
 
