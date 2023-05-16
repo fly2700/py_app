@@ -11,6 +11,10 @@ def do_debug(path):
     logd(path)
 
 
+def do_list(path):
+    logd(path)
+
+
 def do_move(path):
     shutil.move(path, os.getcwd())
 
@@ -24,7 +28,3 @@ def do_unzip(path):
     cmd = '"{}" x -y "{}"'.format(cfg.ZIP_PATH, path)
     logd(cmd)
     utils.exe(cmd)
-
-
-def do_list(path):
-    logd(path)
